@@ -20,5 +20,10 @@ header button.dk:hover{ background: red;}
 .wrapper button.next:hover{ background: rgb(65, 183, 238); transition: 1s;}
 .wrapper p#index{font-size: 26px; color: white; position: absolute; bottom: 0px;    left: 45%; color: #000;}
 
+.container{
+    border: 1px solid #ccc;
+    margin-top: 23%;
+}
+
 footer{text-align: center; background: #000; height: 50px; margin-top: 40px; border: 1px solid gold; padding-top: 10px;}
 footer h2{color: white;}
