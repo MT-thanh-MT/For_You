@@ -1,5 +1,5 @@
 var i = 0;
-var img = ["images/album1.jpg", "images/album2.png", "images/album3.jpg", "images/album4.jpg"];
+var img = ["images/nhinuxi.jpg", "images/thanhi.jpg", "images/thanhi2.jpg", "images/thanhi4.jpg","images/thanhi5.jpg"];
 function prev() {
     i--;
     if (i < 0) {
