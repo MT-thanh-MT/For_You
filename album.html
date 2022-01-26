@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" href="css/index.css">
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MY ALBUM</title>
+</head>
+<body style="background-image: url(images/bg.jpg);   background-size: 100% ;">
+    <div class="thanh">
+        <img src="images/Mai Xuân Thành_PH18759.jpg" alt="">
+        <p style="background: blanchedalmond;">Mai Xuân Thành  PH18759</p>
+        <a href="album.html"><button class="a" style="background: burlywood;">MY ALBUM</button></a>
+        <a href="banhang.html"><button class="bh">BÁN HÀNG</button></a>
+        <a href="dangky.html"><button class="dk">ĐĂNG KÝ</button></a>
+    </div>
+    <div style="height: 100px; text-align: center; background: #000;">
+        <img style="width: 180px; height: 100px;" src="images/logo.jpg" alt="">
+    </div>
+    <header>
+        <a href="album.html"><button class="a" style="box-shadow: 0 0 25px gold inset;">MY ALBUM</button></a>
+        <a href="banhang.html"><button class="bh">BÁN HÀNG</button></a>
+        <a href="dangky.html"><button class="dk">ĐĂNG KÝ</button></a>
+    </header>
+    <div class="wrapper">
+        <img id="img" src="images/album1.jpg" alt="">
+        <button class="prev" onclick="prev();" onmousemove="go('1')" onmouseout="go('2')">Prev</button>
+        <button class="next" onclick="next();" onmousemove="go('1')" onmouseout="go('2')">Next</button>
+        <p id="index">Ảnh 1/4</p>
+    </div>
+    <footer>
+        <h2>MAI XUÂN THÀNH || PH 18759</h2>
+    </footer>
+
+    <script src="js/album.js"></script>
+</body>
+</html>
