@@ -10,7 +10,7 @@ header button.a:hover{ background: greenyellow;}
 header button.bh:hover{ background: gold;}
 header button.dk:hover{ background: red;}
 
-.wrapper{background: #FFF;  width: 800px;  height: 600px; margin: auto;   border: 1px solid gray;   border-radius: 30px; text-align: center; position: relative; }
+.wrapper{background: #FFF;  width: 100%; margin: auto;   border: 1px solid gray;   border-radius: 30px; text-align: center; position: relative; }
 .wrapper:hover{box-shadow: 0 0 15px gold;}
 .wrapper img{   width: 80%; height: 92%; margin-top: 10px;}
 
