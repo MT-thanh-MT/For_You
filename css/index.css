@@ -15,14 +15,19 @@ header button.dk:hover{ background: red;}
 .wrapper img{   width: 80%; height: 92%; margin-top: 10px;}
 
 .wrapper button.bt{   width: 120px; height: 40px; position: absolute;    top: 100%; left: 35%; border-radius: 10px; background: rgb(252, 158, 235);}
-.wrapper button.prev:hover{ background: rgb(65, 183, 238); transition: 1s;}
-.wrapper button.next{   width: 60px; height: 60px; position: absolute;    top: 40%; right: 5px; border-radius: 50%; background: rgb(252, 158, 235);}
-.wrapper button.next:hover{ background: rgb(65, 183, 238); transition: 1s;}
+.wrapper button.bt:hover{ background: rgb(65, 183, 238); transition: 1s;}
+button.next{   width: 160px; height: 40px; margin-left: 34%; border-radius: 10px; background: rgb(252, 158, 235);}
+button.next:hover{ background: rgb(65, 183, 238); transition: 1s;}
 .wrapper p#index{font-size: 26px; color: white; position: absolute; bottom: 0px;    left: 45%; color: #000;}
 
 .container{
-    border: 1px solid #ccc;
     margin-top: 29%;
+}
+#txt p{
+    font-size: 16px;
+    font-weight: bold;
+    font-family: Tahoma;
+    color: rgb(255, 247, 139);
 }
 
 footer{text-align: center; background: #000; height: 50px; margin-top: 40px; border: 1px solid gold; padding-top: 10px;}

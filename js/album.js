@@ -1,13 +1,11 @@
 var i = 0;
-var img = ["images/nhinuxi.jpg", "images/thanhi.jpg", "images/thanhi2.jpg", "images/thanhi4.jpg","images/thanhi5.jpg"];
-function prev() {
-    i--;
-    if (i < 0) {
-        i = img.length - 1;
+var img = [];
+
+
+    for (var j = 0; j <21; j++) {
+        img[j] = "images/" + j + ".jpg";
     }
-    document.getElementById('img').src = img[i];
-    document.getElementById('index').innerText = "Ảnh " + (i + 1) + "/4";
-}
+
 
 function next() {
     i++;
